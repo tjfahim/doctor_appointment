@@ -15,43 +15,43 @@ class DepartmentSeeder extends Seeder
     public function run()
     {
         $department= new Department;
-        $department->name="Allergists";
+        $department->dept_name="Allergists";
         $department->save();
         $department= new Department;
-        $department->name="Anesthesiologists";
+        $department->dept_name="Anesthesiologists";
         $department->save();
         $department= new Department;
-        $department->name="Cardiologists";
+        $department->dept_name="Cardiologists";
         $department->save();
         $department= new Department;
-        $department->name="Dermatologists";
+        $department->dept_name="Dermatologists";
         $department->save();
         $department= new Department;
-        $department->name="Endocrinologists";
+        $department->dept_name="Endocrinologists";
         $department->save();
         $department= new Department;
-        $department->name="Family Physicians";
+        $department->dept_name="Family Physicians";
         $department->save();
         $department= new Department;
-        $department->name="Gastroenterologists";
+        $department->dept_name="Gastroenterologists";
         $department->save();
         $department= new Department;
-        $department->name="Hematologists";
+        $department->dept_name="Hematologists";
         $department->save();
         $department= new Department;
-        $department->name="Psychiatrists";
+        $department->dept_name="Psychiatrists";
         $department->save();
         $department= new Department;
-        $department->name="Pulmonologists";
+        $department->dept_name="Pulmonologists";
         $department->save();
         $department= new Department;
-        $department->name="Radiologists";
+        $department->dept_name="Radiologists";
         $department->save();
         $department= new Department;
-        $department->name="Urologists";
+        $department->dept_name="Urologists";
         $department->save();
         $department= new Department;
-        $department->name="Podiatrists";
+        $department->dept_name="Podiatrists";
         $department->save();
     }
 }

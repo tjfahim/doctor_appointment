@@ -17,7 +17,7 @@ class Appointments extends Migration
             $table->id();
             $table->string('appointment_no')->unique();
             $table->date('appointment_date')->nullable();
-            $table->foreignId('doctor_id')->constrained('doctors');
+            $table->bigInteger('doctor_id');
             $table->string('patient_name');
             $table->string('patient_phone');
             $table->string('total_fee');
